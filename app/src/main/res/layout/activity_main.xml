@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_title_bar"></include>
+    <Button
+       android:id="@+id/btn_send_file"
+        android:text="@string/input_panel_file"
+        android:layout_marginTop="60dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_send_image"
+        android:text="发送图片"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_image_path"
+        android:text="图片所在地址:在里面以grideView展示"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_file_path"
+        android:text="文件所在路径:"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
