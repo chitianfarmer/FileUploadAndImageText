@@ -6,13 +6,13 @@
     <include layout="@layout/layout_title_bar"></include>
     <Button
        android:id="@+id/btn_send_file"
-        android:text="@string/input_panel_file"
+        android:text="获取文件地址"
         android:layout_marginTop="60dp"
        android:layout_width="match_parent"
        android:layout_height="wrap_content" />
     <Button
         android:id="@+id/btn_send_image"
-        android:text="发送图片"
+        android:text="获取并显示图片地址"
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
