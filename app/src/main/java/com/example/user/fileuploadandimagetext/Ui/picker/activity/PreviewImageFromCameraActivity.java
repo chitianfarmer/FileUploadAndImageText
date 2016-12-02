@@ -17,13 +17,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.user.fileuploadandimagetext.R;
-import com.example.user.fileuploadandimagetext.Ui.UI;
-import com.example.user.fileuploadandimagetext.Utils.file.AttachmentStore;
-import com.example.user.fileuploadandimagetext.Utils.media.BitmapDecoder;
-import com.example.user.fileuploadandimagetext.Utils.storage.StorageType;
-import com.example.user.fileuploadandimagetext.Utils.storage.StorageUtil;
-import com.example.user.fileuploadandimagetext.demo.Extras;
-import com.example.user.fileuploadandimagetext.demo.RequestCode;
+import com.example.user.fileuploadandimagetext.Ui.config.UI;
+import com.example.user.fileuploadandimagetext.Ui.Utils.file.AttachmentStore;
+import com.example.user.fileuploadandimagetext.Ui.Utils.media.BitmapDecoder;
+import com.example.user.fileuploadandimagetext.Ui.Utils.storage.StorageType;
+import com.example.user.fileuploadandimagetext.Ui.Utils.storage.StorageUtil;
+import com.example.user.fileuploadandimagetext.Ui.config.Extras;
+import com.example.user.fileuploadandimagetext.Ui.config.RequestCode;
 
 import java.io.File;
 import java.util.ArrayList;

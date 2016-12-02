@@ -8,11 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.user.fileuploadandimagetext.R;
-import com.example.user.fileuploadandimagetext.Ui.UI;
+import com.example.user.fileuploadandimagetext.Ui.config.UI;
 import com.example.user.fileuploadandimagetext.Ui.picker.activity.PickerAlbumPreviewActivity;
 import com.example.user.fileuploadandimagetext.Ui.picker.model.PhotoInfo;
 import com.example.user.fileuploadandimagetext.Ui.views.BaseZoomableImageView;
-import com.example.user.fileuploadandimagetext.Utils.sys.ScreenUtil;
+import com.example.user.fileuploadandimagetext.Ui.Utils.sys.ScreenUtil;
 
 import java.util.List;
 

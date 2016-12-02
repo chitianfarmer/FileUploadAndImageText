@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.user.fileuploadandimagetext.R;
-import com.example.user.fileuploadandimagetext.Ui.UI;
+import com.example.user.fileuploadandimagetext.Ui.config.UI;
 import com.example.user.fileuploadandimagetext.Ui.picker.fragment.PickerAlbumFragment;
 import com.example.user.fileuploadandimagetext.Ui.picker.fragment.PickerImageFragment;
 import com.example.user.fileuploadandimagetext.Ui.picker.loader.PickerConfig;
@@ -19,8 +19,8 @@ import com.example.user.fileuploadandimagetext.Ui.picker.loader.PickerlImageLoad
 import com.example.user.fileuploadandimagetext.Ui.picker.model.AlbumInfo;
 import com.example.user.fileuploadandimagetext.Ui.picker.model.PhotoInfo;
 import com.example.user.fileuploadandimagetext.Ui.picker.model.PickerContract;
-import com.example.user.fileuploadandimagetext.demo.Extras;
-import com.example.user.fileuploadandimagetext.demo.RequestCode;
+import com.example.user.fileuploadandimagetext.Ui.config.Extras;
+import com.example.user.fileuploadandimagetext.Ui.config.RequestCode;
 
 import java.util.ArrayList;
 import java.util.Iterator;

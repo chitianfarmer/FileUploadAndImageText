@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.user.fileuploadandimagetext.R;
-import com.example.user.fileuploadandimagetext.Utils.sys.ScreenUtil;
+import com.example.user.fileuploadandimagetext.Ui.Utils.sys.ScreenUtil;
 
 import java.util.HashMap;
 import java.util.Iterator;

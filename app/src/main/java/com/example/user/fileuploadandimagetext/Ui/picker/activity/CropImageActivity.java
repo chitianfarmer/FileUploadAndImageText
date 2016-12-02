@@ -8,11 +8,11 @@ import android.os.Handler;
 import android.view.View;
 
 import com.example.user.fileuploadandimagetext.R;
-import com.example.user.fileuploadandimagetext.Ui.UI;
+import com.example.user.fileuploadandimagetext.Ui.config.UI;
 import com.example.user.fileuploadandimagetext.Ui.views.CropImageView;
-import com.example.user.fileuploadandimagetext.Utils.media.BitmapDecoder;
-import com.example.user.fileuploadandimagetext.Utils.media.ImageUtil;
-import com.example.user.fileuploadandimagetext.demo.Extras;
+import com.example.user.fileuploadandimagetext.Ui.Utils.media.BitmapDecoder;
+import com.example.user.fileuploadandimagetext.Ui.Utils.media.ImageUtil;
+import com.example.user.fileuploadandimagetext.Ui.config.Extras;
 
 public class CropImageActivity extends UI {
 

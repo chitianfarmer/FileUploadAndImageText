@@ -22,8 +22,8 @@ import com.example.user.fileuploadandimagetext.Ui.picker.adapter.PickerAlbumAdap
 import com.example.user.fileuploadandimagetext.Ui.picker.model.AlbumInfo;
 import com.example.user.fileuploadandimagetext.Ui.picker.model.PhotoInfo;
 import com.example.user.fileuploadandimagetext.Ui.picker.util.ThumbnailsUtil;
-import com.example.user.fileuploadandimagetext.demo.MediaDAO;
-import com.example.user.fileuploadandimagetext.fragment.TFragment;
+import com.example.user.fileuploadandimagetext.Ui.config.MediaDAO;
+import com.example.user.fileuploadandimagetext.Ui.fragment.TFragment;
 
 import java.io.File;
 import java.util.ArrayList;

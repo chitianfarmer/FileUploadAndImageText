@@ -42,7 +42,7 @@
         android:name=".demo.MyApplication"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".Ui.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,7 +51,7 @@
         </activity>
         <!-- 文件管理器 -->
         <activity
-            android:name=".file.browser.FileBrowserActivity"
+            android:name=".Ui.file.browser.FileBrowserActivity"
             android:configChanges="orientation"
             android:label="@string/file_browser"
             android:screenOrientation="portrait"

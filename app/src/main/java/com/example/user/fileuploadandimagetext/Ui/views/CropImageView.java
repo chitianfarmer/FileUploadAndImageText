@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
-import com.example.user.fileuploadandimagetext.Utils.file.AttachmentStore;
+import com.example.user.fileuploadandimagetext.Ui.Utils.file.AttachmentStore;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 

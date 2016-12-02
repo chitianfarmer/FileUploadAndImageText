@@ -12,8 +12,8 @@ import android.widget.GridView;
 import com.example.user.fileuploadandimagetext.R;
 import com.example.user.fileuploadandimagetext.Ui.picker.adapter.PickerPhotoAdapter;
 import com.example.user.fileuploadandimagetext.Ui.picker.model.PhotoInfo;
-import com.example.user.fileuploadandimagetext.demo.Extras;
-import com.example.user.fileuploadandimagetext.fragment.TFragment;
+import com.example.user.fileuploadandimagetext.Ui.config.Extras;
+import com.example.user.fileuploadandimagetext.Ui.fragment.TFragment;
 
 import java.io.Serializable;
 import java.util.ArrayList;

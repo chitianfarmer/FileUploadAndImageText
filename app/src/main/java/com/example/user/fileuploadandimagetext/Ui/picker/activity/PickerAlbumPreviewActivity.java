@@ -17,16 +17,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.user.fileuploadandimagetext.R;
-import com.example.user.fileuploadandimagetext.Ui.UI;
+import com.example.user.fileuploadandimagetext.Ui.config.UI;
 import com.example.user.fileuploadandimagetext.Ui.picker.adapter.PickerPreviewPagerAdapter;
 import com.example.user.fileuploadandimagetext.Ui.picker.model.PhotoInfo;
 import com.example.user.fileuploadandimagetext.Ui.picker.model.PickerContract;
 import com.example.user.fileuploadandimagetext.Ui.picker.util.PickerUtil;
 import com.example.user.fileuploadandimagetext.Ui.views.BaseZoomableImageView;
-import com.example.user.fileuploadandimagetext.Utils.media.BitmapDecoder;
-import com.example.user.fileuploadandimagetext.Utils.media.ImageUtil;
-import com.example.user.fileuploadandimagetext.demo.Extras;
-import com.example.user.fileuploadandimagetext.demo.RequestCode;
+import com.example.user.fileuploadandimagetext.Ui.Utils.media.BitmapDecoder;
+import com.example.user.fileuploadandimagetext.Ui.Utils.media.ImageUtil;
+import com.example.user.fileuploadandimagetext.Ui.config.Extras;
+import com.example.user.fileuploadandimagetext.Ui.config.RequestCode;
 
 import java.util.ArrayList;
 import java.util.Iterator;

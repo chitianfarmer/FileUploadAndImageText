@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.user.fileuploadandimagetext.demo.Extras;
+import com.example.user.fileuploadandimagetext.Ui.config.Extras;
 
 import java.io.Serializable;
 import java.util.ArrayList;

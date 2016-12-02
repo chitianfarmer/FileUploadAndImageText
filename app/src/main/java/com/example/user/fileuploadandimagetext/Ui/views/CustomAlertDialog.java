@@ -16,10 +16,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.user.fileuploadandimagetext.R;
-import com.example.user.fileuploadandimagetext.Utils.sys.ScreenUtil;
-import com.example.user.fileuploadandimagetext.adapter.TAdapter;
-import com.example.user.fileuploadandimagetext.adapter.TAdapterDelegate;
-import com.example.user.fileuploadandimagetext.adapter.TViewHolder;
+import com.example.user.fileuploadandimagetext.Ui.Utils.sys.ScreenUtil;
+import com.example.user.fileuploadandimagetext.Ui.adapter.TAdapter;
+import com.example.user.fileuploadandimagetext.Ui.adapter.TAdapterDelegate;
+import com.example.user.fileuploadandimagetext.Ui.adapter.TViewHolder;
 
 import java.util.LinkedList;
 import java.util.List;

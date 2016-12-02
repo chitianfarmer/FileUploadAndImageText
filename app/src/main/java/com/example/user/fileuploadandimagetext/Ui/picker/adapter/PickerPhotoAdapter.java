@@ -1,26 +1,19 @@
 package com.example.user.fileuploadandimagetext.Ui.picker.adapter;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.user.fileuploadandimagetext.R;
 import com.example.user.fileuploadandimagetext.Ui.picker.fragment.PickerImageFragment;
-import com.example.user.fileuploadandimagetext.Ui.picker.loader.PickerlImageLoadTool;
-import com.example.user.fileuploadandimagetext.Ui.picker.loader.RotateImageViewAware;
 import com.example.user.fileuploadandimagetext.Ui.picker.model.PhotoInfo;
-import com.example.user.fileuploadandimagetext.Ui.picker.util.ThumbnailsUtil;
-import com.example.user.fileuploadandimagetext.Utils.sys.ScreenUtil;
+import com.example.user.fileuploadandimagetext.Ui.Utils.sys.ScreenUtil;
 
 import java.util.List;
 

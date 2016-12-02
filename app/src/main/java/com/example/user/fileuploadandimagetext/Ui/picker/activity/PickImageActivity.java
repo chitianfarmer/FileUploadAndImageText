@@ -16,10 +16,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.user.fileuploadandimagetext.R;
-import com.example.user.fileuploadandimagetext.Ui.UI;
+import com.example.user.fileuploadandimagetext.Ui.config.UI;
 import com.example.user.fileuploadandimagetext.Ui.picker.model.PhotoInfo;
 import com.example.user.fileuploadandimagetext.Ui.picker.model.PickerContract;
-import com.example.user.fileuploadandimagetext.demo.Extras;
+import com.example.user.fileuploadandimagetext.Ui.config.Extras;
 
 import java.io.File;
 import java.util.List;

@@ -31,4 +31,24 @@
         android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_send_post"
+        android:text="显示最新照片"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="最新照片路径:"
+        android:id="@+id/tv_post_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/iv_newestimage"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

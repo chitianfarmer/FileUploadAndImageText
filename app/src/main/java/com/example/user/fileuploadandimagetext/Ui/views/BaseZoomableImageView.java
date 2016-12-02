@@ -39,7 +39,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
-import com.example.user.fileuploadandimagetext.Utils.media.SampleSizeUtil;
+import com.example.user.fileuploadandimagetext.Ui.Utils.media.SampleSizeUtil;
 
 public abstract class BaseZoomableImageView extends View {
 	// Statics

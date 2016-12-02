@@ -543,5 +543,13 @@
     <string name="fts_prefix_hit">前缀匹配高亮检索结果</string>
     <string name="msg_search">全文检索</string>
     <string name="msg_search_limit">全文检索显示条数</string>
-
+    <!--网络判断吐司-->
+    <string name="isContent">用户名不能为空</string>
+    <string name="notContent">网络异常,请检查网络设置</string>
+    <string name="isMobile">当前网络连接不稳定,数据加载缓慢,请稍候...</string>
+    <string name="isWifi">当前网络是wifi连接</string>
+    <string name="isMobileNet">当前网速较差,数据加载缓慢,请稍候...</string>
+    <string name="no_internet">无网络连接</string>
+    <string name="generic_server_down">连接服务器失败</string>
+    <string name="generic_error">网络异常,请稍后再试</string>
 </resources>

@@ -4,7 +4,7 @@ import android.util.Pair;
 import android.widget.TextView;
 
 import com.example.user.fileuploadandimagetext.R;
-import com.example.user.fileuploadandimagetext.adapter.TViewHolder;
+import com.example.user.fileuploadandimagetext.Ui.adapter.TViewHolder;
 
 public class CustomDialogViewHolder extends TViewHolder {
 

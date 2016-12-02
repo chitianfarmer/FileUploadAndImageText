@@ -6,9 +6,9 @@ import android.content.Context;
 import com.example.user.fileuploadandimagetext.R;
 import com.example.user.fileuploadandimagetext.Ui.picker.activity.PickImageActivity;
 import com.example.user.fileuploadandimagetext.Ui.views.CustomAlertDialog;
-import com.example.user.fileuploadandimagetext.Utils.storage.StorageType;
-import com.example.user.fileuploadandimagetext.Utils.storage.StorageUtil;
-import com.example.user.fileuploadandimagetext.Utils.string.StringUtil;
+import com.example.user.fileuploadandimagetext.Ui.Utils.storage.StorageType;
+import com.example.user.fileuploadandimagetext.Ui.Utils.storage.StorageUtil;
+import com.example.user.fileuploadandimagetext.Ui.Utils.string.StringUtil;
 
 /**
  * Created by huangjun on 2015/9/22.
