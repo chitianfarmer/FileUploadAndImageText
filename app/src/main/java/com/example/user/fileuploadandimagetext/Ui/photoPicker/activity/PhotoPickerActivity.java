@@ -163,7 +163,7 @@ public class PhotoPickerActivity extends UI implements AdapterView.OnItemClickLi
     /**
      * 开其图片选择界面  默认为对选且开启相机及最多选择照片数量为9张
      * @param activity 从那个页面进入这个页面
-     * @param requestCode 请求码
+     * @param requestCode 请求码  获取时用data.getStringArrayListExtra(PhotoPickerActivity.EXTRA_RESULT)方式获取
      */
     public static void startActivity(Activity activity, int requestCode) {
         ArrayList<String> pathList = new ArrayList<>();
@@ -171,7 +171,7 @@ public class PhotoPickerActivity extends UI implements AdapterView.OnItemClickLi
         intent.setSelectModel(SelectModel.MULTI);//多选
 //            intent.setSelectModel(SelectModel.SINGLE);//单选
         intent.setShowCarema(true); // 是否显示拍照
-        intent.setMaxTotal(9); // 最多选择照片数量，默认为6
+        intent.setMaxTotal(9); // 最多选择照片数量，默认为9
         intent.setSelectedPaths(pathList); // 已选中的照片地址， 用于回显选中状态
         activity.startActivityForResult(intent, requestCode);
     }
