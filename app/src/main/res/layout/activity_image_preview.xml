@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <include layout="@layout/layout_title_bar"></include>
+    <com.example.user.fileuploadandimagetext.Ui.photoPicker.widget.ViewPagerFixed
+        android:id="@+id/vp_photos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title" />
+    <TextView
+        android:id="@+id/text"
+        android:text="2/9"
+        android:textSize="18sp"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_udo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:background="@color/transparent"
+        android:text="@string/undo" />
+</RelativeLayout>

@@ -7,25 +7,24 @@
     <Button
        android:id="@+id/btn_send_file"
         android:text="获取文件地址"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
        android:layout_width="match_parent"
        android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/btn_send_image"
-        android:text="获取并显示图片地址"
+        android:id="@+id/btn_get_imagePath"
+        android:text="获取多张图片地址"
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
     <TextView
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/tv_image_path"
-        android:text="图片所在地址:在里面以grideView展示"
+        android:text="更多图片所在地址:"
         android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <TextView
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/tv_file_path"
         android:text="文件所在路径:"
         android:textSize="18sp"
@@ -35,7 +34,7 @@
     <Button
         android:id="@+id/btn_send_post"
         android:text="显示最新照片"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

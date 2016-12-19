@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 import com.alibaba.fastjson.JSONException;
 import com.alibaba.fastjson.JSONObject;
-import com.example.user.fileuploadandimagetext.demo.Param;
+import com.example.user.fileuploadandimagetext.Ui.config.Param;
 import java.io.File;
 import java.io.IOException;
 import java.net.FileNameMap;

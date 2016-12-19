@@ -12,13 +12,8 @@ import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-
 import com.example.user.fileuploadandimagetext.Ui.Utils.log.LogUtil;
 import com.example.user.fileuploadandimagetext.Ui.Utils.sys.ReflectionUtil;
-import com.example.user.fileuploadandimagetext.Ui.fragment.TFragment;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public abstract class UI extends AppCompatActivity {
 
@@ -126,71 +121,6 @@ public abstract class UI extends AppCompatActivity {
         return super.isDestroyed();
     }
 
-    /**
-     * fragment management
-     */
-    public TFragment addFragment(TFragment fragment) {
-        List<TFragment> fragments = new ArrayList<TFragment>(1);
-        fragments.add(fragment);
-
-        List<TFragment> fragments2 = addFragments(fragments);
-        return fragments2.get(0);
-    }
-
-    public List<TFragment> addFragments(List<TFragment> fragments) {
-        List<TFragment> fragments2 = new ArrayList<TFragment>(fragments.size());
-
-        FragmentManager fm = getSupportFragmentManager();
-        FragmentTransaction transaction = fm.beginTransaction();
-
-        boolean commit = false;
-        for (int i = 0; i < fragments.size(); i++) {
-            // install
-            TFragment fragment = fragments.get(i);
-            int id = fragment.getContainerId();
-
-            // exists
-            TFragment fragment2 = (TFragment) fm.findFragmentById(id);
-
-            if (fragment2 == null) {
-                fragment2 = fragment;
-                transaction.add(id, fragment);
-                commit = true;
-            }
-
-            fragments2.add(i, fragment2);
-        }
-
-        if (commit) {
-            try {
-                transaction.commitAllowingStateLoss();
-            } catch (Exception e) {
-
-            }
-        }
-
-        return fragments2;
-    }
-
-    public TFragment switchContent(TFragment fragment) {
-        return switchContent(fragment, false);
-    }
-
-    protected TFragment switchContent(TFragment fragment, boolean needAddToBackStack) {
-        FragmentManager fm = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fm.beginTransaction();
-        fragmentTransaction.replace(fragment.getContainerId(), fragment);
-        if (needAddToBackStack) {
-            fragmentTransaction.addToBackStack(null);
-        }
-        try {
-            fragmentTransaction.commitAllowingStateLoss();
-        } catch (Exception e) {
-
-        }
-
-        return fragment;
-    }
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -211,18 +141,6 @@ public abstract class UI extends AppCompatActivity {
         FragmentManager fm = getSupportFragmentManager();
         ReflectionUtil.invokeMethod(fm, "noteStateNotSaved", null);
     }
-
-    protected void switchFragmentContent(TFragment fragment) {
-        FragmentManager fm = getSupportFragmentManager();
-        FragmentTransaction transaction = fm.beginTransaction();
-        transaction.replace(fragment.getContainerId(), fragment);
-        try {
-            transaction.commitAllowingStateLoss();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
     protected boolean isCompatible(int apiLevel) {
         return Build.VERSION.SDK_INT >= apiLevel;
     }

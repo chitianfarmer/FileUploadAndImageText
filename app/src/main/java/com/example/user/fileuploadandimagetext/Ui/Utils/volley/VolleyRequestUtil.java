@@ -9,7 +9,7 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.example.user.fileuploadandimagetext.Ui.Utils.log.LogUtil;
-import com.example.user.fileuploadandimagetext.demo.MyApplication;
+import com.example.user.fileuploadandimagetext.application.MyApplication;
 
 import org.json.JSONObject;
 

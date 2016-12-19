@@ -8,7 +8,7 @@ import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.NetworkImageView;
 import com.example.user.fileuploadandimagetext.R;
-import com.example.user.fileuploadandimagetext.demo.MyApplication;
+import com.example.user.fileuploadandimagetext.application.MyApplication;
 
 public class ImageLoaderUtil {
 

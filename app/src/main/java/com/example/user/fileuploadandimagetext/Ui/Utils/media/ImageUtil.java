@@ -18,7 +18,7 @@ import com.example.user.fileuploadandimagetext.Ui.Utils.storage.StorageType;
 import com.example.user.fileuploadandimagetext.Ui.Utils.storage.StorageUtil;
 import com.example.user.fileuploadandimagetext.Ui.Utils.string.StringUtil;
 import com.example.user.fileuploadandimagetext.Ui.config.DemoCache;
-import com.example.user.fileuploadandimagetext.demo.MyApplication;
+import com.example.user.fileuploadandimagetext.application.MyApplication;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;

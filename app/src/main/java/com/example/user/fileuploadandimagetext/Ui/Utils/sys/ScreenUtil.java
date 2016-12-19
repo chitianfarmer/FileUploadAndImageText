@@ -6,7 +6,6 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 
 import com.example.user.fileuploadandimagetext.Ui.config.DemoCache;
-import com.example.user.fileuploadandimagetext.demo.MyApplication;
 
 import java.lang.reflect.Field;
 

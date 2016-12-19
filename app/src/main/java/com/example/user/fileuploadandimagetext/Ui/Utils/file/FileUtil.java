@@ -7,7 +7,6 @@ import android.webkit.MimeTypeMap;
 import com.example.user.fileuploadandimagetext.R;
 import com.example.user.fileuploadandimagetext.Ui.Utils.string.StringUtil;
 import com.example.user.fileuploadandimagetext.Ui.config.DemoCache;
-import com.example.user.fileuploadandimagetext.demo.MyApplication;
 
 import java.util.Locale;
 
