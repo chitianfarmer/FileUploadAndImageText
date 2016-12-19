@@ -163,10 +163,10 @@ public class PhotoPickerActivity extends UI implements AdapterView.OnItemClickLi
     /**
      * 开其图片选择界面  默认为对选且开启相机及最多选择照片数量为9张
      * @param activity 从那个页面进入这个页面
-     * @param pathList 图片地址的集合
      * @param requestCode 请求码
      */
-    public static void startActivity(Activity activity,ArrayList<String> pathList, int requestCode) {
+    public static void startActivity(Activity activity, int requestCode) {
+        ArrayList<String> pathList = new ArrayList<>();
         PhotoPickerIntent intent = new PhotoPickerIntent(activity);
         intent.setSelectModel(SelectModel.MULTI);//多选
 //            intent.setSelectModel(SelectModel.SINGLE);//单选

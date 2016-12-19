@@ -31,7 +31,6 @@ public class MainActivity extends UI implements View.OnClickListener {
     PhotoView iv_newestimage;
     private final int BASIC_PERMISSION_REQUEST_CODE = 100;
     private int tempTimes = 1;
-    private ArrayList<String> selectList = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,7 +75,7 @@ public class MainActivity extends UI implements View.OnClickListener {
                 break;
             case R.id.btn_get_imagePath:
                 //打开多图选择
-                PhotoPickerActivity.startActivity(MainActivity.this,selectList,RequestCode.GET_LOCAL_IMAGE);
+                PhotoPickerActivity.startActivity(MainActivity.this,RequestCode.GET_LOCAL_IMAGE);
                 break;
             case R.id.btn_send_post:
                 if (tempTimes == 1) {
